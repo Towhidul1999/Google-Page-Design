@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+}
+
+section header ul li button img{
+    height: 40px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+section header ul li button{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+section header ul{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-120px);
+}
+
+section header ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.img {
+    height: 50px;
+}
+
+section .main{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchbox .search{
+    width: 90%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    height: 15px;
+}
+
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+section header .main ul{
+    display: flex;
+}
+
+.resultname ul{
+    display: flex;
+    list-style: none;
+}
+
+.resultname ul li{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.resultarea{
+    background: #ccc;
+}
